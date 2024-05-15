@@ -1,0 +1,27 @@
+#clients .container{
+    background: var(--primary-glow);
+}
+#clients .clients__container{
+    margin-top: 30px
+}
+.slick-prev,.slick-next{
+    display: none !important;
+}
+
+#clients .clients__container .client__card{
+    padding: 20px;
+    border: var(--gray-border);
+}
+#clients .clients__container .client__card .star__container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+#clients .clients__container .client__card .row{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
