@@ -1,7 +1,0 @@
-.divider{
-    width: 100%;
-    max-width: 100px;
-    height: 6px;
-    border-radius: var(--radius-4);
-    background: var(--gradient-1);
-}
